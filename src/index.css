@@ -18,6 +18,14 @@ ol, ul {
 }
 
 .square {
+    /*
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;    
+    background: transparent;
+    float: left;
+    border-color: transparent;
+    */
     background: #fff;
     border: 1px solid #999;
     float: left;
@@ -30,6 +38,14 @@ ol, ul {
     padding: 0;
     text-align: center;
     width: 34px;
+    
+}
+
+.grid {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, grey 1px, transparent 1px),
+      linear-gradient(to bottom, grey 1px, transparent 1px);
 }
 
 .square:focus {
